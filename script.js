@@ -142,7 +142,7 @@ function renderBudgetItemsGrouped(snapshot, filterType = "all") {
   // Render each category and its items
   for (const [category, { items, total }] of Object.entries(categories)) {
     const categoryDiv = document.createElement("div");
-    const categoryTitle = document.createElement("h3");
+    const categoryTitle = document.createElement("h2");
     categoryTitle.textContent = `${category} - Total: $${total.toFixed(2)}`;
     categoryDiv.appendChild(categoryTitle);
 
