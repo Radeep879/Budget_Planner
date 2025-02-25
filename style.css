@@ -176,3 +176,32 @@ li button:hover {
 .center-text {
   text-align: center;
 }
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-row label {
+  margin-right: 10px;
+  width: 100px; /* Adjust width as needed */
+}
+.form-row input,
+.form-row select {
+  flex: 1;
+}
+.button {
+  background-color: #1f421f; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #45a049;
+}
