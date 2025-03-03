@@ -299,32 +299,3 @@ onAuthStateChanged(auth, (user) => {
     showAuth();
   }
 });
-
-// Get modal elements
-const modal = document.getElementById("chatbot-modal");
-const openChatbotButton = document.getElementById("open-chatbot");
-const closeButton = document.querySelector(".close");
-
-// Open the modal when the button is clicked
-openChatbotButton.addEventListener("click", () => {
-  modal.style.display = "block";
-});
-
-// Close the modal when the close button is clicked
-closeButton.addEventListener("click", () => {
-  modal.style.display = "none";
-});
-
-// Close the modal when clicking outside of it
-window.addEventListener("click", (event) => {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-});
-
-// Optional: Close the modal with the Escape key
-window.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
-    modal.style.display = "none";
-  }
-});
