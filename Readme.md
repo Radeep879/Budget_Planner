@@ -31,6 +31,8 @@ To run the app locally, follow these steps:
 
 5. **Deploy to GitHub Pages**: Ensure your changes are committed and pushed to the correct branch (usually `gh-pages` for project sites). Go to your repository on GitHub, click on "Settings," and scroll down to the "Pages" section to ensure the correct branch is selected for GitHub Pages.
 
+## Issues
+AXE tool shows that one `img` tag doesn't have the `alt` attribute set. The image being mentioned is from the `dialogflow`, an API of Google, which fetches the chatbot. The code of the chatbot is fetched at runtime from Google's server thus I couldn't add the `alt` attribute to the tag.
 ## Live Site
 
 Check out the live version of the app on GitHub Pages: [Budget Planner Live](https://radeep879.github.io/Budget_Planner/)
